@@ -19,6 +19,7 @@ namespace HotelListing5._0
                 .WriteTo.File(
                 //path: "C:\\hotellisting\\logs\\log-.txt",
                 path: "D:\\Hardisk D Laptop EDP\\latihan pak hendi\\Hotellisting5.0\\logs\\log-.txt",
+                //path: "D:\\Hardisk D Laptop EDP\\latihan pak hendi\\Hotellisting5.0\\logs\\log-.xlsx",
                 outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}]{Message:lj}{NewLine}{Exeption}",
                 rollingInterval: RollingInterval.Day,
                 restrictedToMinimumLevel: LogEventLevel.Information
