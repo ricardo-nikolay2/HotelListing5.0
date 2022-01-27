@@ -1,0 +1,10 @@
+2022-01-27 13:36:18.348 +07:00 [INF]Application Is Starting
+2022-01-27 13:36:20.887 +07:00 [INF]Application started. Press Ctrl+C to shut down.
+2022-01-27 13:36:20.914 +07:00 [INF]Hosting environment: Development
+2022-01-27 13:36:20.915 +07:00 [INF]Content root path: D:\Hardisk D Laptop EDP\latihan pak hendi\HotelListing5.0\HotelListing5.0
+2022-01-27 13:36:20.962 +07:00 [INF]Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - -
+2022-01-27 13:36:21.653 +07:00 [INF]Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - - - 200 - text/html;charset=utf-8 693.5220ms
+2022-01-27 13:36:21.671 +07:00 [INF]Request starting HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - -
+2022-01-27 13:36:21.691 +07:00 [INF]Request finished HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 8.2598ms
+2022-01-27 13:36:22.120 +07:00 [INF]Request starting HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - -
+2022-01-27 13:36:22.235 +07:00 [INF]Request finished HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.4382ms
