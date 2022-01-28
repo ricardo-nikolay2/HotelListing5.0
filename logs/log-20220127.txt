@@ -16,3 +16,13 @@
 2022-01-27 14:45:31.253 +07:00 [INF]Executed action HotelListing5._0.Controllers.WeatherForecastController.Get (HotelListing5.0) in 49.8044ms
 2022-01-27 14:45:31.255 +07:00 [INF]Executed endpoint 'HotelListing5._0.Controllers.WeatherForecastController.Get (HotelListing5.0)'
 2022-01-27 14:45:31.257 +07:00 [INF]Request finished HTTP/2 GET https://localhost:44372/WeatherForecast - - - 200 - application/json;+charset=utf-8 143.3913ms
+2022-01-27 14:48:40.019 +07:00 [INF]Application Is Starting
+2022-01-27 14:48:44.184 +07:00 [INF]Application started. Press Ctrl+C to shut down.
+2022-01-27 14:48:44.187 +07:00 [INF]Hosting environment: Development
+2022-01-27 14:48:44.188 +07:00 [INF]Content root path: D:\Hardisk D Laptop EDP\latihan pak hendi\HotelListing5.0\HotelListing5.0
+2022-01-27 14:48:44.277 +07:00 [INF]Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - -
+2022-01-27 14:48:45.097 +07:00 [INF]Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - - - 200 - text/html;charset=utf-8 821.2360ms
+2022-01-27 14:48:45.117 +07:00 [INF]Request starting HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - -
+2022-01-27 14:48:45.130 +07:00 [INF]Request finished HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 11.9169ms
+2022-01-27 14:48:45.363 +07:00 [INF]Request starting HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - -
+2022-01-27 14:48:45.454 +07:00 [INF]Request finished HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.1872ms
