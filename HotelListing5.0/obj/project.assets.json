@@ -4183,19 +4183,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hardisk D Laptop EDP\\latihan pak hendi\\HotelListing5.0\\HotelListing5.0\\HotelListing5.0.csproj",
+      "projectUniqueName": "D:\\Project Visual Studio 2019\\HotelListing5.0\\HotelListing5.0\\HotelListing5.0.csproj",
       "projectName": "HotelListing5.0",
-      "projectPath": "D:\\Hardisk D Laptop EDP\\latihan pak hendi\\HotelListing5.0\\HotelListing5.0\\HotelListing5.0.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Hardisk D Laptop EDP\\latihan pak hendi\\HotelListing5.0\\HotelListing5.0\\obj\\",
+      "projectPath": "D:\\Project Visual Studio 2019\\HotelListing5.0\\HotelListing5.0\\HotelListing5.0.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Project Visual Studio 2019\\HotelListing5.0\\HotelListing5.0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4248,6 +4248,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.13, 5.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
