@@ -27,7 +27,7 @@ namespace HotelListing5._0
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            
 
             services.AddCors(o =>
             {
@@ -37,6 +37,8 @@ namespace HotelListing5._0
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HotelListing5._0", Version = "v1" });
             });
+
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
