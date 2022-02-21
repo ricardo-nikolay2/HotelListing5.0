@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,11 +29,18 @@ namespace HotelListing5._0
         public void ConfigureServices(IServiceCollection services)
         {
 
-            
+            services.AddDbContext<DatabaseContext>(options =>
+
+            options.UseSqlServer( Configuration.GetConnectionString("sqlConnection"))
+
+            );
 
             services.AddCors(o =>
             {
-                o.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+                o.AddPolicy("AllowAll", builder => 
+                builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
             });
             services.AddSwaggerGen(c =>
             {
