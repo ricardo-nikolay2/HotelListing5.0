@@ -42,12 +42,32 @@ namespace HotelListing5._0.Repository
                 {
                     query = query.Include(includePropery);
                 }
+
             }
+
+            return await query.AsNoTracking().FirstOrDefaultAsync(expression);
         }
 
         public async Task<IList<T>> GetAll(Expression<Func<T, bool>> expression = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, List<string> includes = null)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            IQueryable<T> query = _db;
+            if(expression != null)
+            {
+                query = query.Where(expression);
+            }
+
+            if (includes != null)
+            {
+                foreach (var includePropery in includes)
+                {
+                    query = query.Include(includePropery);
+                }
+
+            }
+
+            return await query.AsNoTracking().ToListAsync();
         }
 
         public async Task Insert(T entity)
