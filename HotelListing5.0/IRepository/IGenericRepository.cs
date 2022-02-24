@@ -25,7 +25,7 @@ namespace HotelListing5._0.IRepository
 
         void DeleteRange(IEnumerable<T> entities);
 
-        void update(T entity);
+        void Update(T entity);
 
         
     }

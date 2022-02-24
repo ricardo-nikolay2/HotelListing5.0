@@ -1,3 +1,5 @@
+using AutoMapper;
+using HotelListing5._0.Configuration;
 using HotelListing5._0.Controllers.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -42,6 +44,9 @@ namespace HotelListing5._0
                 .AllowAnyMethod()
                 .AllowAnyHeader());
             });
+
+            services.AddAutoMapper(typeof(MapperInitilizer));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HotelListing5._0", Version = "v1" });
